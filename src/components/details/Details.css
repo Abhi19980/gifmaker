@@ -1,0 +1,29 @@
+.details {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details__head {
+  font-size: 4.3rem;
+  margin-bottom: 15rem;
+  background: rgba(255, 255, 255, 0);
+  padding: 1rem 1.5rem;
+}
+
+.details__input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.details__input:active,
+.details__input:focus {
+  /* outline: none; */
+  background-color: aliceblue;
+}
+
+
